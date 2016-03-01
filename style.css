@@ -1,0 +1,32 @@
+body{ 
+	background: url(/big/4.jpg);
+}
+
+#albumDisplay{
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    display: block;
+    margin-bottom: 5px;
+     margin-top: 5px;
+    
+}
+
+#albumThumbs{
+    width: 500px;
+}
+
+#container{
+    margin-left: auto;
+    background-color:pink;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+    border: 4px #e7bfae inset;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.thumb:hover{
+    border-color: aqua;
+}
