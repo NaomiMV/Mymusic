@@ -1,0 +1,103 @@
+body{ 
+	background: url(big/cloud.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#albumDisplay{
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    display: block;
+    margin-bottom: 5px;
+     margin-top: 5px;
+    
+}
+
+#albumThumbs{
+    width: 500px;
+}
+
+#container{
+    background-color:pink;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    border: 4px #e7bfae inset;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 500px;
+}  
+#intro{
+    font-family: fantasy;
+    color: pink;
+    text-align: center;
+}
+
+.thumb:hover{
+    border-color: aqua;
+}
+.geen {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url( http://bla.hosts.ma-cloud.nl/wp-content/uploads/2015/02/grijzeSter.png);
+}
+.geen:hover {
+    background: gray;
+    cursor: pointer;
+}
+.geen span {
+    display: inline-block;
+    width: 0px;
+    height: 32px;
+    background-image: url("http://bla.hosts.ma-cloud.nl/wp-content/uploads/2015/02/geleSter.png");
+}
+#rate{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 10px;
+    width: 200px;
+    margin-left: 550px;
+    border:2px pink inset; 
+     border-radius: 25px;
+}
+@media (max-width: 550px) {
+
+
+#albumDisplay{
+    width: 90%;
+    height: 90%;
+    background-color: azure;
+    display: block;
+    margin-bottom: 5px;
+     margin-top: 5px;
+    
+}
+
+#albumThumbs{
+    width: 50%;
+}
+
+#container{
+    background-color:pink;
+    margin: auto;
+    margin-top: %50;
+    width: 50%;
+    border: 4px #e7bfae inset;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 50%;
+}  
+#intro{
+    font-family: fantasy;
+    color: pink;
+    text-align: center;
+}
+
+.thumb:hover{
+    border-color: aqua;
+}
+   #player{
+       width: 50px;
+   }
